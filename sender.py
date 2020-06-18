@@ -12,11 +12,11 @@ with open(file, 'rb') as f:
 file_hashh=file_hash.hexdigest()
 print(file_hashh)
 file_hash_byte = str.encode(file_hashh)
-url="https://ropsten.infura.io/v3/0b0e6b6a22144f46b870a78eae4c6456"
+url="httpprovider url"
 web3=Web3(Web3.HTTPProvider(url))
 account_1="0x8820191Fe960A41Ed0Ed1DbA494C869BDeA88305"
 account_2="0x678fa825bfb3d43a229b1e9B5131EA612682Af14"
-private_key="439CA8FCE49C8D42FA3C1EB22657C136DA6DFEF3A44EC801181A6255CF26265F"
+private_key="privatekey"
 nonce=web3.eth.getTransactionCount(account_1)
 tx={
 	'nonce':nonce,
