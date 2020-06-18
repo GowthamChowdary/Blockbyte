@@ -1,9 +1,9 @@
 from web3 import Web3
 import json
 import hashlib
-url="https://ropsten.infura.io/v3/0b0e6b6a22144f46b870a78eae4c6456"
+url="httpprovider"
 web3=Web3(Web3.HTTPProvider(url))
-tx=web3.eth.getTransaction('0x1b833240fa1034b262634b76a8ebd00055b6f1d930b153f6fbc43ae6847b721e')
+tx=web3.eth.getTransaction('transaction')
 #print(tx)
 def toDict(dictToParse):
     # convert any 'AttributeDict' type found to 'dict'
