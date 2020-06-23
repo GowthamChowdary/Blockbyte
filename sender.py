@@ -14,8 +14,8 @@ print(file_hashh)
 file_hash_byte = str.encode(file_hashh)
 url="httpprovider url"
 web3=Web3(Web3.HTTPProvider(url))
-account_1="0x8820191Fe960A41Ed0Ed1DbA494C869BDeA88305"
-account_2="0x678fa825bfb3d43a229b1e9B5131EA612682Af14"
+account_1="eth add"
+account_2="eth add"
 private_key="privatekey"
 nonce=web3.eth.getTransactionCount(account_1)
 tx={
